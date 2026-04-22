@@ -227,11 +227,6 @@ main()
         
         // Draw
         BeginDrawing();
-        if (IsKeyPressed(KEY_S)) {
-            // TakeScreenshot deteta automaticamente o formato pelo nome
-            TakeScreenshot("scr.png");
-            std::cout << "Frame capturado com sucesso!" << std::endl;
-        }
         ClearBackground(BLACK);
         trace.draw();
         pendulum.draw();
