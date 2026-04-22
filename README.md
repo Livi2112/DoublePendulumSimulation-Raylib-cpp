@@ -36,5 +36,5 @@ g++ main.cpp -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -o double_pendulum
 
 🧠 The Physics / Source
 
-    All of the formulas used can be found on the site: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/double-pendulum-en.html&ved=2ahUKEwibpZTs_P-TAxV9q5UCHX1TABk4FBAWegQIHhAB&usg=AOvVaw2MHOCFGgwTKS52TBb00tcp
+The formulas used in this project are based on the [MIT Double Pendulum Analysis](https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/double-pendulum-en.html).
     
