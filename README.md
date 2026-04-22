@@ -21,10 +21,8 @@ A high-performance physical simulation of a double pendulum, developed in C++ us
     Physics Engine: Lagrangian mechanics (Numerical integration via Euler method).
 
 📸 Demonstration
+    ![Example](example.png)
 
-    Note: To display your own images on GitHub, place your files in a folder named screenshots and update the links below.
-
-The green trace highlights the extreme sensitivity to initial conditions.
 📋 How to Build and Run
 Prerequisites
 
@@ -48,20 +46,6 @@ The system is governed by a pair of coupled second-order differential equations.
     S: Take a single screenshot.
 
     ESC: Close the simulation.
-
-📹 Converting Frames to Video
-
-If you use the recording feature, you can convert the output frames into a smooth .mp4 video using FFmpeg:
-Bash
-
-ffmpeg -framerate 60 -i screenshots/frame_%05d.png -c:v libx264 -crf 18 -pix_fmt yuv420p output.mp4
-
-📝 License
-
-This project is licensed under the MIT License - feel free to use, modify, and share!
-Pro-Tips for your GitHub Repository:
-
-    Use a GIF for the header: GitHub doesn't autoplay .mp4 files in the README. Converting your recorded frames to a .gif is the best way to show the simulation instantly.
 
     The "About" section: On the right side of your GitHub repo, add tags like #physics, #cpp, #raylib, and #chaos-theory to help people find your project.
 
